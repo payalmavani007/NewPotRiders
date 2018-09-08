@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lianra"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlue"
+    android:orientation="vertical"
+    tools:context=".Activity.IntroSliderFirst">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/potrider" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/mapslide" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="EVERTHING YOU LOVE"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="Find the best &amp; Weeds deals around \nyou on PotRiders"
+        android:textColor="@color/colorWhite"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textColor="@color/colorWhite"
+        android:textSize="15dp" />
+
+    <!--<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/select_boader_button_selected"
+            android:gravity="center" />
+
+        <Button
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/select_boader_button"
+            android:gravity="center" />
+
+    </LinearLayout>-->
+
+    <!--  <TextView
+          android:id="@+id/goto_secondslider"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="45dp"
+          android:background="@drawable/select_boader_text"
+          android:text="Get Started"
+          android:textStyle="bold" />-->
+</LinearLayout>

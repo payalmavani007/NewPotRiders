@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pro.sau.potriders">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:background="#1c3144"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.SampleActivity" />
+        <activity android:name=".Activity.SignUp" />
+        <activity android:name=".Activity.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.ForgotPassword" />
+        <activity android:name=".Activity.ProfileActivity" />
+        <activity android:name=".Activity.ContactUs" />
+        <activity android:name=".Activity.ViewProfile" />
+        <activity android:name=".Activity.ChangePassword" />
+        <activity android:name=".Activity.FoodTypeActivity" />
+        <activity android:name=".Activity.WeedTypeActivity" />
+        <activity android:name=".Activity.SplachScreeenAcivity" />
+        <activity android:name=".Activity.ViewCartActivity" />
+        <activity android:name=".Activity.CheckoutActivity" />
+        <activity
+            android:name=".Activity.ScrollingActivityAddToCart"
+            android:label="Fruits"
+            android:windowSoftInputMode="stateVisible|adjustPan|stateHidden" />
+        <activity
+            android:name=".Activity.ScrollingActivityAddToCartWeed"
+            android:label="Cannavis"
+            android:windowSoftInputMode="stateVisible|adjustPan|stateHidden" />
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Activity.MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorHomeBg"
+    tools:context=".Fragment.WeedFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- TODO: Update blank fragment layout -->
+
+
+        <EditText
+
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/boader"
+            android:clickable="false"
+            android:drawableRight="@drawable/search"
+            android:elevation="5dp"
+            android:hint="Search"
+            android:padding="5dp"
+            android:shadowDx="2"
+            android:shadowDy="4"
+            android:textColor="@color/colorBlack"
+            android:textSize="15dp" />
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:animateLayoutChanges="true"
+            android:isScrollContainer="false"
+            android:orientation="horizontal"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/unsecked_select_boader"
+                    android:text="Breakfast"
+                    android:textAlignment="center"
+                    android:textColor="#FFF" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/select_boader"
+
+                    android:text="Snacks"
+                    android:textAlignment="center"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/select_boader"
+
+                    android:text="Desserts"
+                    android:textAlignment="center"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/select_boader"
+
+                    android:text="Breakfast"
+                    android:textAlignment="center"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/select_boader"
+
+                    android:text="Snacks"
+                    android:textAlignment="center"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/select_boader"
+                    android:text="Desserts"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/select_boader"
+
+                    android:text="Breakfast"
+                    android:textAlignment="center"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/select_boader"
+                    android:text="Snacks"
+                    android:textAlignment="center"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/select_boader"
+                    android:text="Desserts"
+                    android:textAlignment="center"
+                    android:textColor="#000" />
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Weed Type"
+            android:textColor="@color/colorBlack"
+            android:textSize="18dp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/weedbrand_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+</FrameLayout>

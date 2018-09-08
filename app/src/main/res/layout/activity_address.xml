@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.AddressActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:id="@+id/mainlayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:weightSum="5">
+
+        <ImageView
+            android:id="@+id/imgArrow"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:src="@drawable/leftarrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100dp"
+            android:gravity="center"
+            android:text="Address"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="15dp"
+            android:src="@drawable/home_address" />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorBlack"
+            android:foregroundTint="@color/colorBlack"
+            android:textColorHint="@color/colorBlack"
+            android:theme="@style/colorblack"
+            app:hintTextAppearance="@style/colorblack">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:backgroundTint="@color/colorBlack"
+                android:hint="House Number &amp; Details"
+                android:inputType="textEmailAddress"
+                android:paddingTop="5dp"
+                android:text="2301, A Block"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorBlack"
+                android:textSize="15dp" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+    <LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="15dp"
+        android:src="@drawable/landmarks" />
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorBlack"
+        android:foregroundTint="@color/colorBlack"
+        android:textColorHint="@color/colorBlack"
+        android:theme="@style/colorblack"
+        app:hintTextAppearance="@style/colorblack">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:backgroundTint="@color/colorBlack"
+            android:hint="Landmarks(Optional)"
+            android:inputType="textEmailAddress"
+            android:paddingTop="5dp"
+            android:text="Near Saint Joseph School"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorBlack"
+            android:textSize="15dp" />
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>
+    <LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="15dp"
+        android:src="@drawable/location" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorBlack"
+        android:foregroundTint="@color/colorBlack"
+        android:textColorHint="@color/colorBlack"
+        android:theme="@style/colorblack"
+        app:hintTextAppearance="@style/colorblack">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:backgroundTint="@color/colorBlack"
+            android:hint="City"
+            android:inputType="textEmailAddress"
+            android:paddingTop="5dp"
+            android:text="Criddling Stubs"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorBlack"
+            android:textSize="15dp" />
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>
+    <LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="15dp"
+        android:src="@drawable/location" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorBlack"
+        android:foregroundTint="@color/colorBlack"
+        android:textColorHint="@color/colorBlack"
+        android:theme="@style/colorblack"
+        app:hintTextAppearance="@style/colorblack">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:backgroundTint="@color/colorBlack"
+            android:hint="State"
+            android:inputType="textEmailAddress"
+            android:paddingTop="5dp"
+            android:text="N/A"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorBlack"
+            android:textSize="15dp" />
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>
+    <LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="15dp"
+        android:src="@drawable/flag" />
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorBlack"
+        android:foregroundTint="@color/colorBlack"
+        android:textColorHint="@color/colorBlack"
+        android:theme="@style/colorblack"
+        app:hintTextAppearance="@style/colorblack">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:backgroundTint="@color/colorBlack"
+            android:hint="Pincode"
+            android:inputType="textEmailAddress"
+            android:paddingTop="5dp"
+            android:text="160075"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorBlack"
+            android:textSize="15dp" />
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>
+    </LinearLayout>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:text="Save"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
